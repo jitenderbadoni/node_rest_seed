@@ -1,0 +1,14 @@
+{
+  "dev": {
+    "driver": "mysql",
+    "user": "root",
+    "database": "plandb",
+	"password": ""
+  },
+ 
+  "production": {
+    "driver": "mysql",
+    "user": "root",
+    "database": "myapp"
+  }
+}
