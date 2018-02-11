@@ -1,0 +1,13 @@
+{
+    "fname":"",
+    "lname":"",
+    "gender":"",
+    "user_email":"",
+    "user_role":"",
+    "country_code":"",
+    "state_code":"",
+    "city_code":"",
+    "postal_code":"",
+    "user_name":"",
+    "password":""
+}

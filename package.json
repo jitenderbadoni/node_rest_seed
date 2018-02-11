@@ -2,10 +2,9 @@
 	"name": "node-api",
 	"main": "server.js",
 	"dependencies": {
+		"body-parser": "^1.0.2",
+		"buffer": "^5.0.8",
 		"express": "~4.0.0",
-		"body-parser": "~1.0.1",
-		"mysql": "~2.5.0",
-		"sequelize": "~2.0.0",
-		"crypto": "~0.0.3"
+		"mysql": "~2.5.0"
 	}
 }
