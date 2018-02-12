@@ -1,6 +1,8 @@
 {
     "host": "localhost",
     "user": "root",
-    "database": "ziffy",
-	"password": ""
+    "database": "test_db",
+    "password": "",
+    "secretKey":"",
+	"port": 7000
 }

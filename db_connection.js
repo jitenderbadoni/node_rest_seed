@@ -4,7 +4,6 @@ var connection = mysql.createPool({
 	host: config.host,
 	user: config.user,
 	password: config.password,
-	database: config.database,
 	connectionLimit : 100,
 	multipleStatements:true
 });

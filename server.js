@@ -11,6 +11,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var connection = require('./db_connection');
 var logger = require('./logger.js').createLogger('dev.log');
+var config = require('./config.json');
 global.logger = logger;
 global.connection = connection;
 var app = express();
@@ -28,7 +29,7 @@ app.use(function(req, res, next) {
 	next();
 });
 var env = app.get('env') == 'development' ? 'dev' : app.get('env');
-var port = process.env.PORT || 7000;
+var port = config.port;
 
 /*------------------------------------------------------|
 |														|
